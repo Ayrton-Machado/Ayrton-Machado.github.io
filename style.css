@@ -1,15 +1,27 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
-    background-color: rgb(69, 69, 69);
-    height: 100vh;
+    color: rgb(255, 255, 255);
+    background-image: url(wall.jpg);
+    height: 197vh;
+    text-align: center;
     margin: 0;
-    border-inline: 5px solid white;
+    overflow: hidden;
+}
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    text-align: center;
+    height: 100%;
 }
 div .logo {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+div .center_logo {
+    background-color: rgba(0, 0, 0, 0.74);
+    width: 100%;
 }
 img {
     max-height: 350px;
