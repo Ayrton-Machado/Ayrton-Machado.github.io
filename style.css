@@ -6,10 +6,14 @@ body {
     margin: 0;
     overflow: auto;
 }
+div .back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .back {
     display: flex;
     background-image: url(wall.jpg);
-    display: flex;
     justify-content: center;
     align-items: top;
     text-align: center;
