@@ -1,30 +1,26 @@
 body {
+    background-color: rgb(3, 3, 3);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(255, 255, 255);
-    height: 197vh;
+    color: azure;
+    height: 100vh;
     text-align: center;
     margin: 0;
     overflow: auto;
 }
-div .back {
+div.back {
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.back {
-    display: flex;
-    background-image: url(wall.jpg);
     justify-content: center;
     align-items: top;
+    background-image: url(wall.jpg);
     text-align: center;
     height: 100%;
 }
-div .logo {
+div.logo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-div .center_logo {
+div.center_logo {
     background-color: rgba(0, 0, 0, 0.74);
     width: 100%;
 }
@@ -34,9 +30,4 @@ img {
     display: flex;
     justify-content: center;
     vertical-align: top;
-}
-h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
